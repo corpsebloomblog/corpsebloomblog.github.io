@@ -20,7 +20,7 @@ p {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #787878; /* Black */
+  background-color: #ffcfcf;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
