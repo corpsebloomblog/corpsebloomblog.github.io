@@ -16,3 +16,7 @@ p {
   width: 160px;
   background-color: antiquewhite;
 }
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+}
