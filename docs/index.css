@@ -5,9 +5,14 @@ body, html {
   padding: 0;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   background-color: lightblue;
   margin-top: 160px;
+  overflow: auto;
 }
 
 h1 {
