@@ -7,11 +7,11 @@ body, html {
 
 html {
   overflow: hidden;
+  margin-top: 160px;
 }
 
 body {
   background-color: lightblue;
-  margin-top: 160px;
   overflow: auto;
 }
 
