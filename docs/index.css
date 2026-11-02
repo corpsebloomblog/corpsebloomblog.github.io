@@ -13,7 +13,7 @@ p {
 }
 
  /* The sidebar menu */
-.sidebar {
+.ribbon {
   height: 160px; /* Full-height: remove this if you want "auto" height */
   width: 100%; /* Set the width of the sidebar */
   /* position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -26,7 +26,7 @@ p {
 }
 
 /* The navigation menu links */
-.sidebar a {
+.ribbon a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -35,7 +35,7 @@ p {
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidebar a:hover {
+.ribbon a:hover {
   color: #FFFFFF;
 }
 
