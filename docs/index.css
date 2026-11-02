@@ -42,6 +42,7 @@ p {
 .post {
   width: 80%;
   background-color: #888;
+  padding: 5px;
 }
 
 .post a {
