@@ -1,3 +1,7 @@
 const elements = document.getElementsByClassName("import");
 
-fetch("index.html").then(Response => console.log(Response.text()));
+for (let i = 0; i < elements.length; i++) {
+    const element = elements[i];
+    console.log(elements.from);
+    // fetch().then(Response => console.log(Response.text()));
+}
