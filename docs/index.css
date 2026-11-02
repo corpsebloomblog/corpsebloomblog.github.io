@@ -15,11 +15,14 @@ h1 {
   text-align: center;
 }
 
+main {
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
 p {
   font-family: verdana;
   font-size: 20px;
-  margin-left: 160px;
-  margin-right: 160px;
 }
 
  /* The sidebar menu */
@@ -53,8 +56,6 @@ p {
   width: 80%;
   background-color: #888;
   padding: 20px;
-  margin-left: 160px;
-  margin-right: 160px;
 }
 
 .post a {
