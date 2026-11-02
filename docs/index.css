@@ -39,6 +39,11 @@ p {
   color: #FFFFFF;
 }
 
+.post {
+  width: 80%;
+  columns: #888;
+}
+
 /* Style page content */
 main {
   margin-left: 160px; /* Same as the width of the sidebar */
