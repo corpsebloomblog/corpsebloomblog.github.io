@@ -7,6 +7,7 @@ body, html {
 
 body {
   background-color: lightblue;
+  margin-top: 80px;
 }
 
 h1 {
@@ -55,14 +56,6 @@ p {
 .post a {
   font-size: 30px;
 } 
-
-/* Style page content */
-main {
-  margin-left: 160px;
-  margin-right: 160px;
-  margin-top: 80px;
-  padding: 0px 10px;
-}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
