@@ -7,9 +7,7 @@ body, html {
 
 body {
   background-color: lightblue;
-  margin-top: 120px;
-  margin-left: 160px;
-  margin-right: 160px;
+  margin-top: 160px;
 }
 
 h1 {
@@ -20,6 +18,7 @@ h1 {
 p {
   font-family: verdana;
   font-size: 20px;
+  margin-left: 160px;
 }
 
  /* The sidebar menu */
@@ -57,10 +56,4 @@ p {
 
 .post a {
   font-size: 30px;
-} 
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
 } 
