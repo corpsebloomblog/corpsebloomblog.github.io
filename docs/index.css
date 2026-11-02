@@ -41,7 +41,11 @@ p {
 
 .post {
   width: 80%;
-  columns: #888;
+  color: #888;
+}
+
+.post a {
+  size: 12px;
 }
 
 /* Style page content */
