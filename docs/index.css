@@ -53,6 +53,8 @@ p {
   width: 80%;
   background-color: #888;
   padding: 20px;
+  margin-left: 160px;
+  margin-right: 160px;
 }
 
 .post a {
