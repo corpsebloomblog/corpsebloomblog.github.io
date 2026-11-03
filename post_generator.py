@@ -57,7 +57,7 @@ for file in files:
             if f"{key}: " in line: metadata[key] = line[len(f"{key}: "):]
 
     template_location = str(f"{TARGET_FOLDER}/{metadata[PATH]}/template.html")
-    print(template_location)
+    print(read_file(template_location))
 
     # insert text into page
     new_page = read_file(template_location).replace(TEXT_KEY, read_file(file.split(".")[0]+".html"))
