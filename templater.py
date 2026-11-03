@@ -4,7 +4,7 @@ import shutil
 
 
 INSERT_PREFIX = "#insert "
-TEMPLATE_FOLDER = "template"
+TEMPLATE_FOLDER = "docs"
 IMPORTS_FOLDER = "fragments"
 TARGET_FOLDER = "docs"
 
