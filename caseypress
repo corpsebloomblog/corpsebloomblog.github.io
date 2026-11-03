@@ -1,5 +1,5 @@
-python3 post_generator.py
 python3 templater.py
+python3 post_generator.py
 git add .
 git commit -a -m "Compiling through Caseypress!"
 git push
