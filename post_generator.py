@@ -56,6 +56,7 @@ for file in files:
         for key in keys:
             if f"{key}: " in line: metadata[key] = line[len(f"{key}: "):]
 
+    print(template_location)
     template_location = str(f"{TARGET_FOLDER}/{metadata[PATH]}/template.html")
     
     # insert text into page
