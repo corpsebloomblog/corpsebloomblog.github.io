@@ -1,9 +1,9 @@
 --- METADATA ---
-TITLE: name for file, links, etc.
-SUBTITLE: subtitle for posts and for the page
-TEMPLATE*: (/template.html for that folder) template to insert text into
-PATH: [path to section, e.g. /basilisk-devlog]
+#TITLE: name for file, links, etc.
+#SUBTITLE: subtitle for posts and for the page
+#TEMPLATE*: (/template.html for that folder) template to insert text into
+#PATH: [path to section, e.g. /basilisk-devlog]
     ->  this is where it will put the newly generated page AND where it will
         search for the index.html to put the link into
-DATE: when it was posted
-SERIES*: (none) what collection it should be part of for the purposes of previous/next
+#DATE: when it was posted
+#SERIES*: (none) what collection it should be part of for the purposes of previous/next
