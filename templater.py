@@ -1,5 +1,7 @@
 import os
 import glob
+import shutil
+
 
 INSERT_PREFIX = "#insert "
 TEMPLATE_FOLDER = "template"
@@ -45,6 +47,8 @@ def insert_imports(contents, import_key):
     return from_lines(contents)
 
 files = glob.glob(f'{TEMPLATE_FOLDER}/**/*.html', recursive=True)
+shutil.copytree(TEMPLATE_FOLDER, TARGET_FOLDER, dirs_exist_ok=True)
+
 for file in files:
     imports = scan_imports(read_file(file))
     keys = fetch_imports(imports)
