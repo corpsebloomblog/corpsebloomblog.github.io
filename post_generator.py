@@ -1,6 +1,6 @@
 import os
 import glob
-import sleep
+from time import sleep
 
 POSTS_FOLDER = "posts"
 TARGET_FOLDER = "docs"
