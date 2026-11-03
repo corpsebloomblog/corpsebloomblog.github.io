@@ -1,5 +1,6 @@
 import os
 import glob
+import time.sleep
 
 POSTS_FOLDER = "posts"
 TARGET_FOLDER = "docs"
@@ -57,6 +58,7 @@ for file in files:
             if f"{key}: " in line: metadata[key] = line[len(f"{key}: "):]
 
     template_location = str(f"{TARGET_FOLDER}/{metadata[PATH]}/template.html")
+    sleep(1)
     print(read_file(template_location))
 
     # insert text into page
