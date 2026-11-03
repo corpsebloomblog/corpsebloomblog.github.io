@@ -36,7 +36,7 @@ def from_lines(split):
         return split
 
 
-files = glob.glob(f"{POSTS_FOLDER}/**/*.meta", recursive=True)
+files = glob.glob(f"template/**/*.meta", recursive=True)
 for file in files:
     lines = to_lines(read_file(file))
 
