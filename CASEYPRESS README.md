@@ -11,11 +11,11 @@ INDEX NAME: name for the index file. should nearly always be index.html
 
 
 ### POST METADATA FORMAT:
-- TEMPLATE: template to insert text and values into
-- TITLE: title of the post
-- SUBTITLE: subtitle of the post
-- DATE: date of the post
-- SERIES: series the post is part of
+TEMPLATE: template to insert text and values into
+TITLE: title of the post
+SUBTITLE: subtitle of the post
+DATE: date of the post
+SERIES: series the post is part of
 
 ### POST TEMPLATE REPLACEMENT KEYS
 [TITLE]
