@@ -1,4 +1,4 @@
-python3 caseypress config-misc
+python3 caseypress.py config-misc
 
 git add .
 git commit -a -m "Compiling through Caseypress!"
