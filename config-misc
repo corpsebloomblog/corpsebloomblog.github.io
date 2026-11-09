@@ -1,0 +1,5 @@
+TARGET: docs/misc
+POSTS: posts/misc
+LINK TEMPLATE: templates/misc-template.html
+INDEX TEMPLATE: templates/misc-index.html
+INDEX NAME: index.html
