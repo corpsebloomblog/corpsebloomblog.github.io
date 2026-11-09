@@ -1,9 +1,13 @@
---- METADATA ---
-#TITLE: name for file, links, etc.
-#SUBTITLE: subtitle for posts and for the page
-#TEMPLATE*: (/template.html for that folder) template to insert text into
-#PATH: [path to section, e.g. /basilisk-devlog]
-    ->  this is where it will put the newly generated page AND where it will
-        search for the index.html to put the link into
-#DATE: when it was posted
-#SERIES*: (none) what collection it should be part of for the purposes of previous/next
+--BLOGPOST--
+TEMPLATE: template file
+TITLE: post title - shown on link
+SUBTITLE: post subtitle - shown on link
+DATE: date - shown on link, used for chronological ordering
+SERIES: [unimplemented!]
+
+--CONFIG--
+TARGET: folder to compile to
+POSTS: folder that posts are stored in
+INDEX TEMPLATE: template for index page
+LINK TEMPLATE: template for links to come from
+INDEX NAME: name of index file - should be index.html in most circumstances
