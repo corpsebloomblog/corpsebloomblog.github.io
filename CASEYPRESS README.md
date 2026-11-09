@@ -1,23 +1,23 @@
-### CONFIG
-TARGET: target folder for the press
-POSTS: folder the posts are stored in
-LINK TEMPLATE: HTML fragment for what the links should look like
-INDEX TEMPLATE: template file for the index
-INDEX NAME: name for the index file. should nearly always be index.html
+--BLOGPOST METADATA--
+TEMPLATE: template file
+TITLE: post title - shown on link
+SUBTITLE: post subtitle - shown on link
+DATE: date - shown on link, used for chronological ordering
+SERIES: [unimplemented!]
 
-### INDEX TEMPLAE REPLACEMENT KEYS
+--CONFIG--
+TARGET: folder to compile to
+POSTS: folder that posts are stored in
+INDEX TEMPLATE: template for index page
+LINK TEMPLATE: template for links to come from
+INDEX NAME: name of index file - should be index.html in most circumstances
+
+--INDEX TEMPLAE REPLACEMENT KEYS--
 [BLOGPOSTS]
 [LINK]
 
 
-### POST METADATA FORMAT:
-TEMPLATE: template to insert text and values into
-TITLE: title of the post
-SUBTITLE: subtitle of the post
-DATE: date of the post
-SERIES: series the post is part of
-
-### POST TEMPLATE REPLACEMENT KEYS
+--POST TEMPLATE REPLACEMENT KEYS--
 [TITLE]
 [SUBTITLE]
 [DATE]
