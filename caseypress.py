@@ -107,7 +107,7 @@ for post in parsed:
 		(TEMPLATE_TITLE, meta[META_TITLE]),
 		(TEMPLATE_DATE, meta[META_DATE]),
 		(TEMPLATE_SUBTITLE, meta[META_SUBTITLE]),
-		(TEMPLATE_LINK, post[2])
+		(TEMPLATE_LINK, post[2][:-(len(POST_EXTENSION)+1)])
 	]
 	post_text = fill_template(template, keypairs)
 
