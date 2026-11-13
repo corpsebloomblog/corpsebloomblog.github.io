@@ -1,0 +1,5 @@
+TARGET: docs/ttrpg-rambles
+POSTS: posts/ttrpg-rambles
+LINK TEMPLATE: templates/ttrpg-rambles/ttrpg-link.html
+INDEX TEMPLATE: templates/ttrpg-rambles/ttprg-index.html
+INDEX NAME: index.html
